@@ -1,11 +1,23 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Chair from './Chair';
+import TableImage from './images/table.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div> 
+        <img  className="App-post" alt=':(' src= {TableImage}
+        />
+        <div>
+        <Chair x={22} y={24}/>
+      <Chair x={32} y={5}/>
+      <Chair x={47} y={4}/>
+      <Chair x={62} y={5}/>
+      <Chair x={71} y={24}/>
+        </div></div>
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -18,6 +30,7 @@ function App() {
           Learn React
         </a>
       </header>
+      
     </div>
   );
 }

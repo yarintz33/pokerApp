@@ -1,0 +1,24 @@
+.table-centerer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    
+    background-color: #f0f0f0;
+  }
+  
+  .table-container {
+    position: relative;
+    width: 800px;
+    height: 430px;
+    border-radius: 50%;
+  }
+
+  .table {
+    width: 100%; /* Ensures the image resizes based on its container */
+    height: 100%;
+    
+    
+  }
+  

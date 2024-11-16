@@ -21,7 +21,18 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: green;
+}
+
+.App-post {
+  /* A 50px solid black border */
+  background-color: transparent;
+  /* margin-top: 30%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%; */
+    max-width: 100%; /* Ensures the image resizes based on its container */
+    height: auto; /* Maintains the aspect ratio */
 }
 
 .App-link {
