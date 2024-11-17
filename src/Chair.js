@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './css/Chair.css';
 import styles from './css/Chair.module.css'; 
 
-import AvatatImage from './images/avatar.png';
+import AvatatImage from './images/boy.png';
 
 
 function Chair({ position }) {

@@ -5,19 +5,21 @@
     margin-top: 4%;
     margin-bottom: 6%;
     
-    background-color: #f0f0f0;
+    background-color: white;
   }
   
   .table-container {
     position: relative;
     width: 800px;
     height: 430px;
-    border-radius: 50%;
+    background-color: transparent;
   }
 
   .table {
     width: 100%; /* Ensures the image resizes based on its container */
     height: 100%;
+    
+    background-color: transparent;
     
     
   }
